@@ -1,6 +1,6 @@
 import { APIRequestContext, expect } from "@playwright/test";
 import { AuthApi } from "../api/authApi";
-import { authData } from "../fixtures/auth-data";
+import { authData } from "../test-data/auth-data";
 import { LoginResponse } from "../types/authTypes";
 
 export async function getAccessToken(
@@ -17,3 +17,8 @@ export async function getAccessToken(
 
   return loginResponseBody.accessToken;
 }
+
+/*
+I Build Playwright API Test Framework using Typescript for REST API's. 
+
+ */

@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { authData } from "../fixtures/auth-data";
+import { authData } from "../test-data/auth-data";
 import { AuthApi } from "../api/authApi";
 import { UserApi } from "../api/userApi";
 import {
